@@ -1,0 +1,14 @@
+description: AI PR automation template
+branch: main
+gha_enabled: true
+include_patterns:
+  - "src/**/*"
+  - "tests/**/*"
+exclude_patterns:
+  - "**/node_modules/**"
+  - "**/bin/**"
+draft: false
+auto_assign:
+  enabled: true
+  reviewers:
+    - coderabbitai
